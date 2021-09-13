@@ -44,7 +44,7 @@
 #button_holder{display:flex; align-items:center; justify-content:center;}
 .btn{font-family: emoji, calibri, sans-serif; background: blanchedalmond; font-size:7vw; margin:3vw; cursor:pointer; text-align:center; visibility: hidden;}
 #gameoverscreen{background:white; background: rgba(255,255,255,.75); width: 70vw; margin:auto; padding:5vmin; visibility:hidden;}
-.ending{font-family: emoji, calibri, sans-serif; color:black; text-align:center; margin-bottom:2vmin;}
+.ending{font-family: calibri, sans-serif; color:black; text-align:center; margin-bottom:2vmin;}
 #gameovertitle{font-size:8vmin; color:saddlebrown;}
 #score{font-size:7vmin;}
 #highscore{font-size:7vmin;}
@@ -55,4 +55,4 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
-#points{color: lime; text-align: center; margin-top:40vmin; font-size: 15vmin; visibility:hidden};
+#points{font-family: calibri, sans-serif; color: lime; text-align: center; margin-top:40vmin; font-size: 15vmin; visibility:hidden};

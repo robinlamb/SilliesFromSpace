@@ -373,7 +373,7 @@ function checkGuess(player_guess, silly_move) {
     highScore = localStorage.getItem("silliesfromspace_highscore");
     if ((highScore == null) || (score > highScore)) {
       localStorage.setItem("silliesfromspace_highscore", score);
-      document.getElementById("highscore").innerHTML = "New High Score🏆";
+      document.getElementById("highscore").innerHTML = "New High Score";
     }
     else {
       document.getElementById("highscore").innerHTML = "High Score: " + highScore.toString();
